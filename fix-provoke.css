@@ -1,0 +1,82 @@
+/* Seção "Vou te falar uma coisa..." — coluna central em qualquer tela.
+   No original o designer só estilizou o mobile; no tablet/desktop o texto
+   esticava e o botão circular subia do lado. */
+
+.elementor-element-35242dc,
+.elementor-element-35242dc > .e-con-inner {
+  flex-direction: column !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center;
+}
+
+.elementor-element-35242dc > .e-con-inner {
+  width: 100%;
+  max-width: 390px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.elementor-element-6fd5122 {
+  width: 100% !important;
+  max-width: 357px !important;
+  --container-widget-width: 357px !important;
+  --container-widget-flex-grow: 0 !important;
+  align-self: center !important;
+  text-align: center !important;
+  font-size: 28px !important;
+  line-height: 1.25 !important;
+  letter-spacing: -0.84px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.elementor-element-6fd5122 .underline-hand {
+  position: relative;
+  display: inline;
+  white-space: nowrap;
+}
+
+.elementor-element-6fd5122 .underline-hand::after {
+  content: "";
+  position: absolute;
+  left: -4%;
+  right: -6%;
+  bottom: -0.18em;
+  height: 0.42em;
+  background: url("wp-content/uploads/2026/08/Vector-1.svg") center / 100% 100% no-repeat;
+  pointer-events: none;
+}
+
+/* SVG solto do Elementor — a linha agora vai no próprio "só nunca teve" */
+.elementor-element-4ea73df {
+  display: none !important;
+}
+
+.elementor-element-facd0d5 {
+  width: 48px !important;
+  max-width: 48px !important;
+  --container-widget-width: 48px !important;
+  --container-widget-flex-grow: 0 !important;
+  align-self: center !important;
+  margin: 18px auto 0 !important;
+  position: relative !important;
+  left: auto !important;
+  right: auto !important;
+  float: none !important;
+}
+
+.elementor-element-facd0d5 img {
+  width: 48px !important;
+  height: 48px !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+@media (max-width: 380px) {
+  .elementor-element-6fd5122 {
+    font-size: 24px !important;
+  }
+}
